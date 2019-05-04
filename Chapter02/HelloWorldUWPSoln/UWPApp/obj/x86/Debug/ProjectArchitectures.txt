@@ -1,1 +1,0 @@
-D:\NewBookProject\ITBOOKS\WPF\Projects\Chapter02\HelloWorldUWPSoln\UWPApp\UWPApp.csproj;x86
