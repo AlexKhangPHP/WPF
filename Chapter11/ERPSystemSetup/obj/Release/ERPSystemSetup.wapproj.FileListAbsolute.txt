@@ -1,0 +1,17 @@
+D:\NewBookProject\ITBOOKS\WPF\Projects\Chapter11\ERPSystemSetup\bin\AnyCPU\Release\resources.pri
+D:\NewBookProject\ITBOOKS\WPF\Projects\Chapter11\ERPSystemSetup\bin\AnyCPU\Release\AppxManifest.xml
+D:\NewBookProject\ITBOOKS\WPF\Projects\Chapter11\ERPSystemSetup\bin\AnyCPU\Release\ERPSystemSetup.build.appxrecipe
+D:\NewBookProject\ITBOOKS\WPF\Projects\Chapter11\ERPSystemSetup\obj\Release\ERPSystemSetup.wapprojResolveAssemblyReference.cache
+D:\NewBookProject\ITBOOKS\WPF\Projects\Chapter11\ERPSystemSetup\obj\Release\ERPSystemSetup.wapproj.CoreCompileInputs.cache
+D:\NewBookProject\ITBOOKS\WPF\Projects\Chapter11\ERPSystemSetup\obj\Release\priconfig.xml
+D:\NewBookProject\ITBOOKS\WPF\Projects\Chapter11\ERPSystemSetup\obj\Release\priconfig.xml.intermediate
+D:\NewBookProject\ITBOOKS\WPF\Projects\Chapter11\ERPSystemSetup\obj\Release\layout.resfiles
+D:\NewBookProject\ITBOOKS\WPF\Projects\Chapter11\ERPSystemSetup\obj\Release\layout.resfiles.intermediate
+D:\NewBookProject\ITBOOKS\WPF\Projects\Chapter11\ERPSystemSetup\obj\Release\resources.resfiles
+D:\NewBookProject\ITBOOKS\WPF\Projects\Chapter11\ERPSystemSetup\obj\Release\resources.resfiles.intermediate
+D:\NewBookProject\ITBOOKS\WPF\Projects\Chapter11\ERPSystemSetup\obj\Release\pri.resfiles
+D:\NewBookProject\ITBOOKS\WPF\Projects\Chapter11\ERPSystemSetup\obj\Release\pri.resfiles.intermediate
+D:\NewBookProject\ITBOOKS\WPF\Projects\Chapter11\ERPSystemSetup\obj\Release\qualifiers.txt
+D:\NewBookProject\ITBOOKS\WPF\Projects\Chapter11\ERPSystemSetup\obj\Release\qualifiers.txt.intermediate
+D:\NewBookProject\ITBOOKS\WPF\Projects\Chapter11\ERPSystemSetup\obj\Release\MultipleQualifiersPerDimensionFound.txt
+D:\NewBookProject\ITBOOKS\WPF\Projects\Chapter11\ERPSystemSetup\obj\Release\ProjectArchitectures.txt

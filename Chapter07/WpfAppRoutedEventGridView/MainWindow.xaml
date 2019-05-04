@@ -1,0 +1,105 @@
+﻿<Window x:Class="WpfAppRoutedEventGridView.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfAppRoutedEventGridView"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="549.497" Width="887.94" Loaded="Window_Loaded">
+    <Grid>
+        <DataGrid 
+            Name="gridViewData" 
+            Button.Click="BubblingRoutedEvent_Click"
+            AutoGenerateColumns="False" 
+            Height="431" HorizontalAlignment="Left" 
+            Margin="21,37,0,0"
+            RowDetailsVisibilityMode="VisibleWhenSelected" 
+            VerticalAlignment="Top" Width="849"
+            Background="White" RowBackground="White"
+            CanUserAddRows="True" CanUserDeleteRows="True" >
+            <DataGrid.Columns>
+                <DataGridCheckBoxColumn Width="30"  Header="#" 
+                    Binding="{Binding IsActivated, Mode=TwoWay}" />
+                <DataGridTextColumn Width="40"  Header="Id" 
+                    Binding="{Binding EmployeeId, Mode=OneWay}"/>
+                <DataGridTextColumn Width="80" Header="FirstName" 
+                    Binding="{Binding FirstName, Mode=TwoWay}" />
+                <DataGridTextColumn Width="80" Header="LastName"
+                    Binding="{Binding LastName, Mode=TwoWay}"  />
+                <DataGridTemplateColumn Header="DateOfBirth" Width="100">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <DatePicker SelectedDate="{Binding Path=DateOfBirth, 
+                            Mode=TwoWay, UpdateSourceTrigger=PropertyChanged,
+                                ValidatesOnExceptions=True}"
+                            />
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+                <DataGridTextColumn Width="120" Header="Address" 
+                    Binding="{Binding Address, Mode=TwoWay}" />
+                <DataGridTextColumn Width="100" Header="Email" 
+                    Binding="{Binding Email, Mode=TwoWay}" />
+                <DataGridTextColumn Width="90" Header="Telephone" 
+                    Binding="{Binding Telephone, Mode=TwoWay}" />
+                <DataGridComboBoxColumn 
+                    x:Name="ComboBoxState"
+                    Header="State"  Width="70"
+                    DisplayMemberPath="StateName"
+                    SelectedValuePath="StateCode"
+                    SelectedValueBinding="{Binding StateCode, Mode=TwoWay}"/>
+                <DataGridTemplateColumn Width="50" >
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate >
+                            <Button >Delete</Button>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+                <DataGridTemplateColumn Width="60">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Button>Notify</Button>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+            </DataGrid.Columns>
+            <DataGrid.GroupStyle>
+                <GroupStyle>
+                    <GroupStyle.ContainerStyle>
+                        <Style TargetType="{x:Type GroupItem}">
+                            <Setter Property="Control.Template">
+                                <Setter.Value>
+                                    <ControlTemplate TargetType="{x:Type GroupItem}">
+                                        <Expander IsExpanded="True">
+                                            <Expander.Header>
+                                                <StackPanel Orientation="Horizontal">
+                                                    <TextBlock Text="{Binding Name}" />
+                                                    <TextBlock Text=": " />
+                                                    <TextBlock Text="{Binding ItemCount}" />
+                                                    <TextBlock Text=" employee(s)" />
+                                                </StackPanel>
+                                            </Expander.Header>
+                                            <ItemsPresenter />
+                                        </Expander>
+                                    </ControlTemplate>
+                                </Setter.Value>
+                            </Setter>
+                        </Style>
+                    </GroupStyle.ContainerStyle>
+
+                </GroupStyle>
+            </DataGrid.GroupStyle>
+
+        </DataGrid>
+        <Button x:Name="buttonDisplay" Content="Search" HorizontalAlignment="Left" Margin="535,5,0,0" VerticalAlignment="Top" Width="93" Height="25" RenderTransformOrigin="0.21,0.53" Click="buttonDisplay_Click"/>
+        <TextBlock HorizontalAlignment="Left" Margin="302,10,0,0" TextWrapping="Wrap" Text="State Code" VerticalAlignment="Top" Height="22" Width="60"/>
+        <ComboBox x:Name="comboBoxStates" 
+        HorizontalAlignment="Left" Margin="367,6,0,0" 
+        VerticalAlignment="Top" Width="163" Height="24"
+                  SelectedValuePath="StateCode"
+                  DisplayMemberPath="StateName"/>
+        <TextBox x:Name="textBoxKeyword" HorizontalAlignment="Left" Height="25" Margin="86,7,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="207"/>
+        <TextBlock HorizontalAlignment="Left" Margin="21,8,0,0" TextWrapping="Wrap" Text="Keyword" VerticalAlignment="Top" Height="22" Width="60" RenderTransformOrigin="-4.283,1"/>
+        <Button x:Name="buttonSave" Content="Save" HorizontalAlignment="Left" Margin="21,477,0,0" VerticalAlignment="Top" Width="89" Height="25" Click="buttonSave_Click"/>
+    </Grid>
+</Window>

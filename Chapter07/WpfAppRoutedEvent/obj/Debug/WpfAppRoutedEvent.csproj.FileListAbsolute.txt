@@ -1,0 +1,15 @@
+D:\NewBookProject\ITBOOKS\WPF\Projects\Chapter07\WpfAppRoutedEvent\obj\Debug\WpfAppRoutedEvent.csprojResolveAssemblyReference.cache
+D:\NewBookProject\ITBOOKS\WPF\Projects\Chapter07\WpfAppRoutedEvent\obj\Debug\MainWindow.g.cs
+D:\NewBookProject\ITBOOKS\WPF\Projects\Chapter07\WpfAppRoutedEvent\obj\Debug\App.g.cs
+D:\NewBookProject\ITBOOKS\WPF\Projects\Chapter07\WpfAppRoutedEvent\obj\Debug\WpfAppRoutedEvent_MarkupCompile.cache
+D:\NewBookProject\ITBOOKS\WPF\Projects\Chapter07\WpfAppRoutedEvent\obj\Debug\WpfAppRoutedEvent_MarkupCompile.lref
+D:\NewBookProject\ITBOOKS\WPF\Projects\Chapter07\WpfAppRoutedEvent\bin\Debug\WpfAppRoutedEvent.exe.config
+D:\NewBookProject\ITBOOKS\WPF\Projects\Chapter07\WpfAppRoutedEvent\bin\Debug\WpfAppRoutedEvent.exe
+D:\NewBookProject\ITBOOKS\WPF\Projects\Chapter07\WpfAppRoutedEvent\bin\Debug\WpfAppRoutedEvent.pdb
+D:\NewBookProject\ITBOOKS\WPF\Projects\Chapter07\WpfAppRoutedEvent\obj\Debug\MainWindow.baml
+D:\NewBookProject\ITBOOKS\WPF\Projects\Chapter07\WpfAppRoutedEvent\obj\Debug\WpfAppRoutedEvent.g.resources
+D:\NewBookProject\ITBOOKS\WPF\Projects\Chapter07\WpfAppRoutedEvent\obj\Debug\WpfAppRoutedEvent.Properties.Resources.resources
+D:\NewBookProject\ITBOOKS\WPF\Projects\Chapter07\WpfAppRoutedEvent\obj\Debug\WpfAppRoutedEvent.csproj.GenerateResource.Cache
+D:\NewBookProject\ITBOOKS\WPF\Projects\Chapter07\WpfAppRoutedEvent\obj\Debug\WpfAppRoutedEvent.csproj.CoreCompileInputs.cache
+D:\NewBookProject\ITBOOKS\WPF\Projects\Chapter07\WpfAppRoutedEvent\obj\Debug\WpfAppRoutedEvent.exe
+D:\NewBookProject\ITBOOKS\WPF\Projects\Chapter07\WpfAppRoutedEvent\obj\Debug\WpfAppRoutedEvent.pdb

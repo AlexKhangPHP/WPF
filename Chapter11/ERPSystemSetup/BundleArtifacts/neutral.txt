@@ -1,0 +1,2 @@
+MainPackage=D:\NewBookProject\ITBOOKS\WPF\Projects\Chapter11\ERPSystemSetup\bin\AnyCPU\Release\ERPSystemSetup_1.0.3.0_AnyCPU.appx
+SymbolPackage=D:\NewBookProject\ITBOOKS\WPF\Projects\Chapter11\ERPSystemSetup\AppPackages\ERPSystemSetup_1.0.3.0_Test\ERPSystemSetup_1.0.3.0_AnyCPU.appxsym

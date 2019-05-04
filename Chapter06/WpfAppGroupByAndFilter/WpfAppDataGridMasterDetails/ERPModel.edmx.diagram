@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="bdbbc34b589849df82f3610a45f4193a" Name="Diagram1" ZoomLevel="102">
+        <EntityTypeShape EntityType="ERPModel.State" Width="1.5" PointX="2.25" PointY="0.5" />
+        <EntityTypeShape EntityType="ERPModel.Employee" Width="1.5" PointX="0.5" PointY="0.5" />
+        <EntityTypeShape EntityType="ERPModel.FamilyRelation" Width="1.5" PointX="4" PointY="0.5" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

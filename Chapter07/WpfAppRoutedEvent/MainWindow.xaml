@@ -1,0 +1,57 @@
+﻿<Window x:Class="WpfAppRoutedEvent.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfAppRoutedEvent"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="200" Width="525">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50" />
+            <RowDefinition Height="50" />
+            <RowDefinition Height="50" />
+            <RowDefinition Height="10" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="580*" />
+        </Grid.ColumnDefinitions>
+        <StackPanel 
+            Orientation="Horizontal" 
+            HorizontalAlignment="Center"
+            Grid.Column="0" Grid.Row="0"
+            Height="40">
+            <Button Name="YesButton" Width="50" Click="YesButton_Click" Content="Yes"/>
+            <TextBlock Text=" "/>
+            <Button Name="NoButton" Width="50" Click="NoButton_Click" Content="No"/>
+            <TextBlock Text=" "/>
+            <Button Name="CancelButton" Width="50" Click="CancelButton_Click" Content ="Cancel"/>
+        </StackPanel>
+        <StackPanel 
+            Button.Click="RoutedEvent_ClickHandler"
+            Orientation="Horizontal" 
+            VerticalAlignment="Top"
+            HorizontalAlignment="Center"
+            Grid.Column="0" Grid.Row="1"
+            Height="40">
+            <Button Name="Yes" Width="50" Content="Yes" Click="Yes_Click"/>
+            <TextBlock Text=" "/>
+            <Button Name="No" Width="50" Content="No"/>
+            <TextBlock Text=" "/>
+            <Button Name="Cancel" Width="50" Content ="Cancel"/>
+        </StackPanel>
+        <StackPanel 
+            ButtonBase.Click="RoutedEvent_BaseClickHandler"
+            Orientation="Horizontal" 
+            VerticalAlignment="Top"
+            HorizontalAlignment="Center"
+            Grid.Column="0" Grid.Row="2"
+            Height="40">
+            <Button Name="ButtonYes" Width="50" Content="Yes" Click="ButtonYes_Click"/>
+            <TextBlock Text=" "/>
+            <Button Name="ButtonNo" Width="50" Content="No"/>
+            <TextBlock Text=" "/>
+            <Button Name="ButtonCancel" Width="50" Content ="Cancel"/>
+        </StackPanel>
+    </Grid>
+</Window>
