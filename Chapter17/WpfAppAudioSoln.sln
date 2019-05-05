@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfAppAudio", "WpfAppAudio\WpfAppAudio.csproj", "{B76CBD86-79D4-43C1-8398-D4DE26158A36}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfAppRichMedia", "WpfAppRichMedia\WpfAppRichMedia.csproj", "{ABABD9BC-546B-4DC8-8685-253FE60EC104}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfAppVideo", "WpfAppVideo\WpfAppVideo.csproj", "{E58075EA-781B-4538-A924-7246485756B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfAppSpeechRecognition", "WpfAppSpeechRecognition\WpfAppSpeechRecognition.csproj", "{E87F731B-CA3E-416F-92A8-A5DEE5A587E2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B76CBD86-79D4-43C1-8398-D4DE26158A36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B76CBD86-79D4-43C1-8398-D4DE26158A36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B76CBD86-79D4-43C1-8398-D4DE26158A36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B76CBD86-79D4-43C1-8398-D4DE26158A36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABABD9BC-546B-4DC8-8685-253FE60EC104}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABABD9BC-546B-4DC8-8685-253FE60EC104}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABABD9BC-546B-4DC8-8685-253FE60EC104}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABABD9BC-546B-4DC8-8685-253FE60EC104}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E58075EA-781B-4538-A924-7246485756B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E58075EA-781B-4538-A924-7246485756B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E58075EA-781B-4538-A924-7246485756B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E58075EA-781B-4538-A924-7246485756B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E87F731B-CA3E-416F-92A8-A5DEE5A587E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E87F731B-CA3E-416F-92A8-A5DEE5A587E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E87F731B-CA3E-416F-92A8-A5DEE5A587E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E87F731B-CA3E-416F-92A8-A5DEE5A587E2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4F670E4B-AE8A-4060-B4E9-33105E9EEBB6}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,28 @@
+﻿<Window x:Class="WpfApp1.Window7"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="Window7" Height="300" Width="417.68" Loaded="Window_Loaded">
+    <Grid>
+        <ListBox x:Name="listBoxDirectory" HorizontalAlignment="Left" Height="249" Margin="10,10,0,0" VerticalAlignment="Top" Width="390">
+            <ListBox.ContextMenu>
+                <ContextMenu>
+                    <MenuItem Header="Copy" Name="menuCopy" Click="menuCopy_Click">
+                        <MenuItem.Icon>
+                            <Image Source="/Images/hot.gif" />
+                        </MenuItem.Icon>
+                    </MenuItem>
+                    <MenuItem Header="Cut" Name="menuCut" Click="menuCut_Click"/>
+                    <MenuItem Header="Send to">
+                        <MenuItem Header="Bluetooth device" Click="MenuItem_Bluetooth_Click" />
+                        <MenuItem Header="Documents" Click="MenuItem_Documents_Click" />
+                    </MenuItem>
+                </ContextMenu>
+            </ListBox.ContextMenu>
+        </ListBox>
+
+    </Grid>
+</Window>

@@ -1,0 +1,41 @@
+﻿<Window x:Class="WpfAppDependencyProperty.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfAppDependencyProperty"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="500">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="350"/>
+            <ColumnDefinition Width="100*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="35" />
+            <RowDefinition Height="35*"/>
+        </Grid.RowDefinitions>
+
+        <local:TitleTextBlock  
+                    x:Name="TitleTextBlock" Margin="10,0,10,10" 
+                    Text = "Hellow World"
+                    Width="Auto" Height="25" 
+                Grid.Column="0" Grid.Row="0"/>
+        <Button x:Name="button" Height="25"
+                    Content="Button" Click="button_Click" 
+                    Grid.Column="1" Grid.Row="0"
+                    Margin="10,0,32,10" Width="100"/>
+        <ListBox x:Name="listBox" 
+            HorizontalAlignment="Left" 
+            Height="235" Margin="10,10,0,0"
+            Grid.Row="1" Width="330"
+            VerticalAlignment="Top" 
+        />
+        <Button x:Name="button1" Content="Button"
+            Grid.Column="1"  Margin="10,10,0,0" 
+            HorizontalAlignment="Left" Grid.Row="1" 
+            VerticalAlignment="Top" Width="100" 
+            Height="25" Click="button1_Click"/>
+
+    </Grid>
+</Window>

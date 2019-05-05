@@ -1,0 +1,220 @@
+﻿<Window x:Class="ResourceDictionaryWpfApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ResourceDictionaryWpfApp"
+        mc:Ignorable="d"
+       Title="MainWindow" Height="520" Width="820" 
+        Loaded="Window_Loaded" WindowStartupLocation="CenterScreen">
+    <Window.Resources>
+        <ResourceDictionary Source="XResourceDictionary.xaml" />
+    </Window.Resources>
+    <Grid ShowGridLines="True">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="39" />
+            <RowDefinition Height="29" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="150" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <ToolBarTray Background="White" Height="30" Grid.ColumnSpan="3" Grid.Row="0"
+                         VerticalAlignment="Top" 
+                         DockPanel.Dock="Top" Orientation="Horizontal">
+            <ToolBar x:Name="toolBar" HorizontalAlignment="Left" VerticalAlignment="Top" >
+                <Button>
+                    <Image Source="Images\cut.png" Width="20" ToolTip="Cut"/>
+                </Button>
+                <Button>
+                    <Image Source="Images\copy.png" Width="20" ToolTip="Copy"/>
+                </Button>
+                <Button>
+                    <Image Source="Images\paste.png" Width="20" ToolTip="Paste"/>
+                </Button>
+            </ToolBar>
+        </ToolBarTray>
+        <TreeView x:Name="treeViewCountry"  
+                  Width="150" Height="Auto" 
+                  Grid.Column="0" Grid.RowSpan="2" 
+                  Grid.Row="2"  >
+            <TreeViewItem Header="United States">
+                <TreeViewItem Header="New York"/>
+                <TreeViewItem Header="Los Angeles"/>
+                <TreeViewItem Header="Chicago"/>
+            </TreeViewItem>
+            <TreeViewItem Header="French">
+                <TreeViewItem Header="Paris"/>
+                <TreeViewItem Header="Marseille"/>
+                <TreeViewItem Header="Lyon"/>
+                <TreeViewItem Header="Toulouse"/>
+            </TreeViewItem>
+            <TreeViewItem Header="United Kingdom">
+                <TreeViewItem Header="London"/>
+                <TreeViewItem Header="Birmingham"/>
+                <TreeViewItem Header="Cambridge"/>
+                <TreeViewItem Header="Manchester"/>
+            </TreeViewItem>
+        </TreeView>
+        <TextBlock Grid.Column="1"  Grid.Row="1" 
+                   Grid.ColumnSpan="3" Height="23" 
+                   HorizontalAlignment="Left" Margin="12,6,0,0"
+                   Name="textBlockTitle" Text="New Registration" 
+                   FontWeight="Bold" FontSize="14">
+            <TextBlock.Style>
+                <Style TargetType="TextBlock">
+                    <Setter Property="HorizontalAlignment" Value="Center" />
+                    <Setter Property="FontFamily" Value="Comic Sans MS"/>
+                    <Setter Property="FontSize" Value="14"/>
+                    <Setter Property="Foreground" Value="Red"/>
+                </Style>
+            </TextBlock.Style>
+        </TextBlock>
+        <DockPanel Grid.Column="1" Grid.Row="2">
+            <Grid ShowGridLines="True" DockPanel.Dock="Top" Height="Auto">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="39" />
+                    <RowDefinition Height="35" />
+                    <RowDefinition Height="35" />
+                    <RowDefinition Height="35" />
+                    <RowDefinition Height="35" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="35" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="110" />
+                    <ColumnDefinition Width="200" />
+                    <ColumnDefinition Width="100" />
+                    <ColumnDefinition Width="200*" />
+                </Grid.ColumnDefinitions>
+
+                <TextBlock Height="23" HorizontalAlignment="Left" Margin="12,6,0,0" Name="textBlock1" Text="First Name" VerticalAlignment="Top" Grid.Column="0" Grid.Row="1" />
+                <TextBox Text="Bryan" Grid.Column="1" Height="23" HorizontalAlignment="Left" Margin="11,7,0,0" Name="textBoxFirstName" VerticalAlignment="Top" Width="179" Grid.Row="1" />
+                <TextBlock Grid.Row="2" Height="23" HorizontalAlignment="Left" Margin="12,6,0,0" Text="Last Name" VerticalAlignment="Top" Grid.Column="0" />
+                <TextBox  Text="Khang Pham" Grid.Column="1" Grid.Row="2" Height="23" HorizontalAlignment="Left" Margin="11,6,0,0" Name="textBoxLastName" VerticalAlignment="Top" Width="179" />
+                <TextBlock Grid.Row="3" Height="23" HorizontalAlignment="Left" Margin="12,6,0,0" Name="textBlockEmail" Text="Email" VerticalAlignment="Top" />
+                <TextBox  Text="Bryan.Khang@outlook.com" 
+                          Grid.Column="1" Grid.Row="3" Height="23" 
+                          HorizontalAlignment="Left" Margin="11,4,0,0" 
+                          Name="textBoxEmail" 
+                          
+                          VerticalAlignment="Top" Width="179" />
+                <TabControl Grid.ColumnSpan="4" Grid.Row="5" Height="150" 
+                            HorizontalAlignment="Left" Margin="13,10,0,0" 
+                            Name="tabControl1" VerticalAlignment="Top" Width="619">
+                    <TabItem Header="Education" Name="tabItem1">
+                        <ListView 
+                            x:Name="listView" 
+                            
+                            Height="100" Margin="10,0,9,0">
+                            <ListView.View>
+                                <GridView>
+                                    <GridViewColumn Header="Qualification" Width="80" DisplayMemberBinding="{Binding Qualification}"/>
+                                    <GridViewColumn Header="Major" Width="80" DisplayMemberBinding="{Binding Major}"/>
+                                    <GridViewColumn Header="University" Width="180" DisplayMemberBinding="{Binding University}"/>
+                                    <GridViewColumn Header="Yr.Attended" Width="75" DisplayMemberBinding="{Binding YearAttended}"/>
+                                    <GridViewColumn Header="Country" Width="80" DisplayMemberBinding="{Binding Country}"/>
+                                    <GridViewColumn Header="Grade" Width="70" DisplayMemberBinding="{Binding Grade}"/>
+                                </GridView>
+                            </ListView.View>
+                        </ListView>
+                    </TabItem>
+                    <TabItem Header="Experience" />
+                    <TabItem Header="Skills" />
+                    <TabItem Header="Family Relation" />
+
+                </TabControl>
+
+                <TextBlock Grid.ColumnSpan="3" Grid.Row="6" 
+                    Height="23" HorizontalAlignment="Right" 
+                    Margin="0,6,0,0" Name="textBlockSummary" 
+                    Text="Gross Income (VND): " VerticalAlignment="Top" />
+                <TextBlock Height="23" HorizontalAlignment="Left" Margin="7,8,0,0" x:Name="textBlockGender" Text="Gender" VerticalAlignment="Top" Grid.Column="2" Grid.Row="1" />
+                <RadioButton x:Name="radioButtonMale" Content="Male" Grid.Column="3" HorizontalAlignment="Left" Margin="11,10,0,0" Grid.Row="1" VerticalAlignment="Top"/>
+                <RadioButton x:Name="radioButtonFemale" Content="Female" Grid.Column="3" HorizontalAlignment="Left" Margin="75,10,0,0" Grid.Row="1" VerticalAlignment="Top"/>
+                <TextBlock Height="23" HorizontalAlignment="Left" Margin="7,9,0,0" x:Name="textBlockMarital" Text="Marital Status" VerticalAlignment="Top" Grid.Column="2" Grid.Row="2" />
+                <ComboBox x:Name="comboBoxMaritalStatus" 
+                          Template="{DynamicResource XYComboBoxTemplate}"
+                          Grid.Column="3" HorizontalAlignment="Left" 
+                          Margin="12,6,0,0" Grid.Row="2" 
+                          VerticalAlignment="Top" Width="105" Height="25">
+                </ComboBox>
+                <CheckBox x:Name="checkBoxChildren" Content="Has Children" Grid.Column="3" HorizontalAlignment="Left" Margin="136,10,0,0" Grid.Row="2" VerticalAlignment="Top" Height="20"/>
+                <TextBlock Height="23" HorizontalAlignment="Left" Margin="12,10,0,0"  Text="Employee Code" VerticalAlignment="Top" Grid.Column="0" Width="86" />
+                <TextBox x:Name="textBoxCode" Grid.Column="1" 
+                    Template="{DynamicResource XTextBoxTemplate}"
+                    HorizontalAlignment="Left" Height="23" 
+                    Margin="11,10,0,0" TextWrapping="Wrap" 
+                    VerticalAlignment="Center" Width="179"
+                    Text="HV01010101-2019">
+                </TextBox>
+                <TextBlock   Grid.Column="2" HorizontalAlignment="Left" Margin="7,14,0,0" TextWrapping="Wrap" Text="Start date" VerticalAlignment="Top" Width="68"/>
+                <DatePicker x:Name="datePickerStartDate" Grid.Column="3" HorizontalAlignment="Left" Margin="12,11,0,0" VerticalAlignment="Top" Width="120"/>
+                <Label x:Name="labelMobile" Content="Mobile" Grid.Column="2" HorizontalAlignment="Left" Margin="10,5,0,0" Grid.Row="3" VerticalAlignment="Top" Width="69"/>
+                <TextBox x:Name="textBoxMobile" Grid.Column="3" HorizontalAlignment="Left" Height="23" Margin="12,6,0,0" Grid.Row="3" TextWrapping="Wrap" Text="(100) 938393838" VerticalAlignment="Top" Width="120"/>
+                <TextBox 
+                    x:Name="textBoxIncome" Text="12,000,000" 
+                    Template="{DynamicResource YTextBoxTemplate}" 
+                    Grid.Column="3" HorizontalAlignment="Left" 
+                    Height="23" Margin="12,5,0,0" Grid.Row="6" 
+                    TextWrapping="Wrap" 
+                    VerticalAlignment="Top" Width="120"
+                    />
+                <TextBlock Grid.Row="4" Height="23" HorizontalAlignment="Left" Margin="13,10,0,0" x:Name="textBlockAddress" Text="Address" VerticalAlignment="Top" />
+                <TextBox  Text="10 William Street, 28th Floor, New York, NY 10038" Grid.Column="1" Grid.ColumnSpan="2" Grid.Row="4" Height="23" HorizontalAlignment="Left" Margin="11,7,0,0" x:Name="textBox3_Copy" VerticalAlignment="Top" Width="279" />
+                <ComboBox x:Name="comboBoxState" 
+                    Template="{DynamicResource XYComboBoxTemplate}"
+                    Grid.Column="3" HorizontalAlignment="Left" 
+                    Margin="10,5,0,0" Grid.Row="4" 
+                    VerticalAlignment="Top" Width="107" Height="25"/>
+                <ComboBox x:Name="comboBoxCountry" 
+                    Template="{DynamicResource XYComboBoxTemplate}"
+                    Grid.Column="3" HorizontalAlignment="Left" 
+                    Margin="122,5,0,0" Grid.Row="4" 
+                    VerticalAlignment="Top" Width="100" Height="25"/>
+            </Grid>
+            <StackPanel Orientation="Horizontal" DockPanel.Dock="Bottom" Height="36" >
+                <TextBlock Text="  "/>
+                <Button 
+                    x:Name="buttonSave" 
+                    Template="{DynamicResource XButtonTemplate}"
+                    Width="80" Height="26" Content="Save" 
+                    HorizontalContentAlignment="Center" 
+                    HorizontalAlignment="Center" 
+                    Click="buttonSave_Click">
+                </Button>
+                <TextBlock Text=" "/>
+                <Button x:Name="buttonDelete" 
+                    Template="{DynamicResource XButtonTemplate}"   
+                    Width="80" Height="26" 
+                    Content="Delete"  
+                    HorizontalContentAlignment="Center" 
+                    HorizontalAlignment="Center"
+                    Click="buttonDelete_Click">
+                </Button>
+                <TextBlock Text=" "/>
+                <Button x:Name="buttonClose" 
+                        Template="{DynamicResource XYButtonTemplate}"
+                        Width="80" Height="26" 
+                        Content="Close"  
+                        HorizontalContentAlignment="Center" 
+                        HorizontalAlignment="Center"
+                        Click="buttonClose_Click">
+
+                </Button>
+                <TextBlock Text=" "/>
+                <Button x:Name="buttonExit" 
+                        
+                        Width="80" Height="26" 
+                        Content="Exit"  
+                        HorizontalContentAlignment="Center" 
+                        HorizontalAlignment="Center"
+                        Click="buttonExit_Click">
+
+                </Button>
+            </StackPanel>
+        </DockPanel>
+
+    </Grid>
+</Window>

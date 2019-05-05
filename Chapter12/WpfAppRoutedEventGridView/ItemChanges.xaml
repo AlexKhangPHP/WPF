@@ -1,0 +1,184 @@
+﻿<Window x:Class="WpfAppRoutedEventGridView.ItemChanges"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfAppRoutedEventGridView"
+        mc:Ignorable="d"
+        Title="ItemChanges" Height="460" Width="887.94">
+    <Grid>
+        <DataGrid AutoGenerateColumns="False" 
+                  Height="122" HorizontalAlignment="Left" 
+                  Margin="10,10,0,0" Name="dataGridChanges" 
+                  RowDetailsVisibilityMode="VisibleWhenSelected" 
+                  VerticalAlignment="Top" Width="849"
+                  CanUserAddRows="False" CanUserDeleteRows="False"
+                  Background="White" RowBackground="White">
+            <DataGrid.Columns>
+                <DataGridCheckBoxColumn Width="30"  Header="#" 
+                    Binding="{Binding IsActivated, Mode=OneWay}" />
+                <DataGridTextColumn Width="40"  Header="Id" 
+                    Binding="{Binding EmployeeId, Mode=OneWay}"/>
+                <DataGridTextColumn Width="80" Header="FirstName" 
+                    Binding="{Binding FirstName, Mode=OneWay}" />
+                <DataGridTextColumn Width="80" Header="LastName"
+                    Binding="{Binding LastName, Mode=OneWay}"  />
+                <DataGridTextColumn Header="DateOfBirth" Width="100"
+                    Binding="{Binding DateOfBirth, Mode=OneWay,StringFormat='{}{0:dd/MM/yyyy}'}"/>
+                <DataGridTextColumn Width="200" Header="Address" 
+                    Binding="{Binding Address, Mode=OneWay}" />
+                <DataGridTextColumn Width="120" Header="Email" 
+                    Binding="{Binding Email, Mode=OneWay}" />
+                <DataGridTextColumn Width="90" Header="Telephone" 
+                    Binding="{Binding Telephone, Mode=OneWay}" />
+                <DataGridTextColumn 
+                    x:Name="ComboBoxState"
+                    Header="State"  Width="80"
+                    Binding="{Binding StateCode, Mode=OneWay}"/>
+            </DataGrid.Columns>
+            <DataGrid.GroupStyle>
+                <GroupStyle>
+                    <GroupStyle.ContainerStyle>
+                        <Style TargetType="{x:Type GroupItem}">
+                            <Setter Property="Control.Template">
+                                <Setter.Value>
+                                    <ControlTemplate TargetType="{x:Type GroupItem}">
+                                        <Expander IsExpanded="True">
+                                            <Expander.Header>
+                                                <StackPanel Orientation="Horizontal">
+                                                    <TextBlock Text="{Binding Name}" />
+                                                    <TextBlock Text=": " />
+                                                    <TextBlock Text="{Binding ItemCount}" />
+                                                    <TextBlock Text=" employee(s)" />
+                                                </StackPanel>
+                                            </Expander.Header>
+                                            <ItemsPresenter />
+                                        </Expander>
+                                    </ControlTemplate>
+                                </Setter.Value>
+                            </Setter>
+                        </Style>
+                    </GroupStyle.ContainerStyle>
+
+                </GroupStyle>
+            </DataGrid.GroupStyle>
+
+        </DataGrid>
+        <Button x:Name="buttonSave" Content="Accept" HorizontalAlignment="Left" Margin="10,399,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="-0.25,0.475" Click="buttonSave_Click"/>
+        <Button x:Name="buttonCancel" Content="Cancel" HorizontalAlignment="Left" Margin="89,398,0,0" VerticalAlignment="Top" Width="76" Height="21" Click="buttonCancel_Click"/>
+        <DataGrid AutoGenerateColumns="False" 
+            Height="122" HorizontalAlignment="Left" 
+            Margin="10,137,0,0" x:Name="dataGridChangesDelete" 
+            RowDetailsVisibilityMode="VisibleWhenSelected" 
+            VerticalAlignment="Top" Width="849"
+            CanUserAddRows="False" CanUserDeleteRows="False"
+            Background="White" RowBackground="White">
+            <DataGrid.Columns>
+                <DataGridCheckBoxColumn Width="30"  Header="#" 
+                    Binding="{Binding IsActivated, Mode=OneWay}" />
+                <DataGridTextColumn Width="40"  Header="Id" 
+                    Binding="{Binding EmployeeId, Mode=OneWay}"/>
+                <DataGridTextColumn Width="80" Header="FirstName" 
+                    Binding="{Binding FirstName, Mode=OneWay}" />
+                <DataGridTextColumn Width="80" Header="LastName"
+                    Binding="{Binding LastName, Mode=OneWay}"  />
+                <DataGridTextColumn Header="DateOfBirth" Width="100"
+                    Binding="{Binding DateOfBirth, Mode=OneWay, StringFormat=\{0:dd/MM/yyyy\}}"/>
+                <DataGridTextColumn Width="200" Header="Address" 
+                    Binding="{Binding Address, Mode=OneWay}" />
+                <DataGridTextColumn Width="120" Header="Email" 
+                    Binding="{Binding Email, Mode=OneWay}" />
+                <DataGridTextColumn Width="90" Header="Telephone" 
+                    Binding="{Binding Telephone, Mode=OneWay}" />
+                <DataGridTextColumn 
+                    x:Name="ComboBoxState1"
+                    Header="State"  Width="80"
+                    Binding="{Binding StateCode, Mode=OneWay}"/>
+            </DataGrid.Columns>
+            <DataGrid.GroupStyle>
+                <GroupStyle>
+                    <GroupStyle.ContainerStyle>
+                        <Style TargetType="{x:Type GroupItem}">
+                            <Setter Property="Template">
+                                <Setter.Value>
+                                    <ControlTemplate TargetType="{x:Type GroupItem}">
+                                        <Expander IsExpanded="True">
+                                            <Expander.Header>
+                                                <StackPanel Orientation="Horizontal">
+                                                    <TextBlock Text="{Binding Name}" />
+                                                    <TextBlock Text=": " />
+                                                    <TextBlock Text="{Binding ItemCount}" />
+                                                    <TextBlock Text=" employee(s)" />
+                                                </StackPanel>
+                                            </Expander.Header>
+                                            <ItemsPresenter />
+                                        </Expander>
+                                    </ControlTemplate>
+                                </Setter.Value>
+                            </Setter>
+                        </Style>
+                    </GroupStyle.ContainerStyle>
+
+                </GroupStyle>
+            </DataGrid.GroupStyle>
+
+        </DataGrid>
+        <DataGrid AutoGenerateColumns="False" 
+            Height="122" HorizontalAlignment="Left" 
+            Margin="10,264,0,0" x:Name="dataGridChangesNew" 
+            RowDetailsVisibilityMode="VisibleWhenSelected" 
+            VerticalAlignment="Top" Width="849"
+            CanUserAddRows="False" CanUserDeleteRows="False"
+            Background="White" RowBackground="White">
+            <DataGrid.Columns>
+                <DataGridCheckBoxColumn Width="30"  Header="#" 
+                    Binding="{Binding IsActivated, Mode=OneWay}" />
+                <DataGridTextColumn Width="40"  Header="Id" 
+                    Binding="{Binding EmployeeId, Mode=OneWay}"/>
+                <DataGridTextColumn Width="80" Header="FirstName" 
+                    Binding="{Binding FirstName, Mode=OneWay}" />
+                <DataGridTextColumn Width="80" Header="LastName"
+                    Binding="{Binding LastName, Mode=OneWay}"  />
+                <DataGridTextColumn Header="DateOfBirth" Width="100"
+                    Binding="{Binding DateOfBirth, Mode=OneWay, StringFormat=\{0:dd/MM/yyyy\}}"/>
+                <DataGridTextColumn Width="200" Header="Address" 
+                    Binding="{Binding Address, Mode=OneWay}" />
+                <DataGridTextColumn Width="120" Header="Email" 
+                    Binding="{Binding Email, Mode=OneWay}" />
+                <DataGridTextColumn Width="90" Header="Telephone" 
+                    Binding="{Binding Telephone, Mode=OneWay}" />
+                <DataGridTextColumn 
+                    x:Name="ComboBoxState2"
+                    Header="State"  Width="80"
+                    Binding="{Binding StateCode, Mode=OneWay}"/>
+            </DataGrid.Columns>
+            <DataGrid.GroupStyle>
+                <GroupStyle>
+                    <GroupStyle.ContainerStyle>
+                        <Style TargetType="{x:Type GroupItem}">
+                            <Setter Property="Template">
+                                <Setter.Value>
+                                    <ControlTemplate TargetType="{x:Type GroupItem}">
+                                        <Expander IsExpanded="True">
+                                            <Expander.Header>
+                                                <StackPanel Orientation="Horizontal">
+                                                    <TextBlock Text="{Binding Name}" />
+                                                    <TextBlock Text=": " />
+                                                    <TextBlock Text="{Binding ItemCount}" />
+                                                    <TextBlock Text=" employee(s)" />
+                                                </StackPanel>
+                                            </Expander.Header>
+                                            <ItemsPresenter />
+                                        </Expander>
+                                    </ControlTemplate>
+                                </Setter.Value>
+                            </Setter>
+                        </Style>
+                    </GroupStyle.ContainerStyle>
+
+                </GroupStyle>
+            </DataGrid.GroupStyle>
+
+        </DataGrid>
+    </Grid>
+</Window>

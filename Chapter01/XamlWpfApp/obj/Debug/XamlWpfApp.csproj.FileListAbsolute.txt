@@ -1,0 +1,15 @@
+D:\NewBookProject\ITBOOKS\WPF\Projects\Chapter01\XamlWpfApp\bin\Debug\XamlWpfApp.exe.config
+D:\NewBookProject\ITBOOKS\WPF\Projects\Chapter01\XamlWpfApp\bin\Debug\XamlWpfApp.exe
+D:\NewBookProject\ITBOOKS\WPF\Projects\Chapter01\XamlWpfApp\bin\Debug\XamlWpfApp.pdb
+D:\NewBookProject\ITBOOKS\WPF\Projects\Chapter01\XamlWpfApp\obj\Debug\XamlWpfApp.csprojResolveAssemblyReference.cache
+D:\NewBookProject\ITBOOKS\WPF\Projects\Chapter01\XamlWpfApp\obj\Debug\MainWindow.g.cs
+D:\NewBookProject\ITBOOKS\WPF\Projects\Chapter01\XamlWpfApp\obj\Debug\App.g.cs
+D:\NewBookProject\ITBOOKS\WPF\Projects\Chapter01\XamlWpfApp\obj\Debug\XamlWpfApp_MarkupCompile.cache
+D:\NewBookProject\ITBOOKS\WPF\Projects\Chapter01\XamlWpfApp\obj\Debug\XamlWpfApp_MarkupCompile.lref
+D:\NewBookProject\ITBOOKS\WPF\Projects\Chapter01\XamlWpfApp\obj\Debug\MainWindow.baml
+D:\NewBookProject\ITBOOKS\WPF\Projects\Chapter01\XamlWpfApp\obj\Debug\XamlWpfApp.g.resources
+D:\NewBookProject\ITBOOKS\WPF\Projects\Chapter01\XamlWpfApp\obj\Debug\XamlWpfApp.Properties.Resources.resources
+D:\NewBookProject\ITBOOKS\WPF\Projects\Chapter01\XamlWpfApp\obj\Debug\XamlWpfApp.csproj.GenerateResource.Cache
+D:\NewBookProject\ITBOOKS\WPF\Projects\Chapter01\XamlWpfApp\obj\Debug\XamlWpfApp.csproj.CoreCompileInputs.cache
+D:\NewBookProject\ITBOOKS\WPF\Projects\Chapter01\XamlWpfApp\obj\Debug\XamlWpfApp.exe
+D:\NewBookProject\ITBOOKS\WPF\Projects\Chapter01\XamlWpfApp\obj\Debug\XamlWpfApp.pdb

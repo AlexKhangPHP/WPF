@@ -1,0 +1,15 @@
+D:\NewBookProject\ITBOOKS\WPF\Projects\Chapter08\WpfAppDragDrop\bin\Debug\WpfAppDragDrop.exe.config
+D:\NewBookProject\ITBOOKS\WPF\Projects\Chapter08\WpfAppDragDrop\bin\Debug\WpfAppDragDrop.exe
+D:\NewBookProject\ITBOOKS\WPF\Projects\Chapter08\WpfAppDragDrop\bin\Debug\WpfAppDragDrop.pdb
+D:\NewBookProject\ITBOOKS\WPF\Projects\Chapter08\WpfAppDragDrop\obj\Debug\WpfAppDragDrop.csprojResolveAssemblyReference.cache
+D:\NewBookProject\ITBOOKS\WPF\Projects\Chapter08\WpfAppDragDrop\obj\Debug\MainWindow.g.cs
+D:\NewBookProject\ITBOOKS\WPF\Projects\Chapter08\WpfAppDragDrop\obj\Debug\App.g.cs
+D:\NewBookProject\ITBOOKS\WPF\Projects\Chapter08\WpfAppDragDrop\obj\Debug\WpfAppDragDrop_MarkupCompile.cache
+D:\NewBookProject\ITBOOKS\WPF\Projects\Chapter08\WpfAppDragDrop\obj\Debug\WpfAppDragDrop_MarkupCompile.lref
+D:\NewBookProject\ITBOOKS\WPF\Projects\Chapter08\WpfAppDragDrop\obj\Debug\MainWindow.baml
+D:\NewBookProject\ITBOOKS\WPF\Projects\Chapter08\WpfAppDragDrop\obj\Debug\WpfAppDragDrop.g.resources
+D:\NewBookProject\ITBOOKS\WPF\Projects\Chapter08\WpfAppDragDrop\obj\Debug\WpfAppDragDrop.Properties.Resources.resources
+D:\NewBookProject\ITBOOKS\WPF\Projects\Chapter08\WpfAppDragDrop\obj\Debug\WpfAppDragDrop.csproj.GenerateResource.Cache
+D:\NewBookProject\ITBOOKS\WPF\Projects\Chapter08\WpfAppDragDrop\obj\Debug\WpfAppDragDrop.csproj.CoreCompileInputs.cache
+D:\NewBookProject\ITBOOKS\WPF\Projects\Chapter08\WpfAppDragDrop\obj\Debug\WpfAppDragDrop.exe
+D:\NewBookProject\ITBOOKS\WPF\Projects\Chapter08\WpfAppDragDrop\obj\Debug\WpfAppDragDrop.pdb

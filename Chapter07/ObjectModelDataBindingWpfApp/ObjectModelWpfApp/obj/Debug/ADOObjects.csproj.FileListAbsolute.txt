@@ -1,0 +1,17 @@
+D:\NewBookProject\ITBOOKS\WPF\Projects\Chapter06\WpfApp1\ADOObjects\bin\Debug\ADOObjects.exe.config
+D:\NewBookProject\ITBOOKS\WPF\Projects\Chapter06\WpfApp1\ADOObjects\bin\Debug\ADOObjects.exe
+D:\NewBookProject\ITBOOKS\WPF\Projects\Chapter06\WpfApp1\ADOObjects\bin\Debug\ADOObjects.pdb
+D:\NewBookProject\ITBOOKS\WPF\Projects\Chapter06\WpfApp1\ADOObjects\obj\Debug\ADOObjects.csprojResolveAssemblyReference.cache
+D:\NewBookProject\ITBOOKS\WPF\Projects\Chapter06\WpfApp1\ADOObjects\obj\Debug\MainWindow.g.cs
+D:\NewBookProject\ITBOOKS\WPF\Projects\Chapter06\WpfApp1\ADOObjects\obj\Debug\App.g.cs
+D:\NewBookProject\ITBOOKS\WPF\Projects\Chapter06\WpfApp1\ADOObjects\obj\Debug\ADOObjects_MarkupCompile.cache
+D:\NewBookProject\ITBOOKS\WPF\Projects\Chapter06\WpfApp1\ADOObjects\obj\Debug\ADOObjects_MarkupCompile.lref
+D:\NewBookProject\ITBOOKS\WPF\Projects\Chapter06\WpfApp1\ADOObjects\obj\Debug\App.baml
+D:\NewBookProject\ITBOOKS\WPF\Projects\Chapter06\WpfApp1\ADOObjects\obj\Debug\MainWindow.baml
+D:\NewBookProject\ITBOOKS\WPF\Projects\Chapter06\WpfApp1\ADOObjects\obj\Debug\XResourceDictionary.baml
+D:\NewBookProject\ITBOOKS\WPF\Projects\Chapter06\WpfApp1\ADOObjects\obj\Debug\ADOObjects.g.resources
+D:\NewBookProject\ITBOOKS\WPF\Projects\Chapter06\WpfApp1\ADOObjects\obj\Debug\ADOObjects.Properties.Resources.resources
+D:\NewBookProject\ITBOOKS\WPF\Projects\Chapter06\WpfApp1\ADOObjects\obj\Debug\ADOObjects.csproj.GenerateResource.Cache
+D:\NewBookProject\ITBOOKS\WPF\Projects\Chapter06\WpfApp1\ADOObjects\obj\Debug\ADOObjects.csproj.CoreCompileInputs.cache
+D:\NewBookProject\ITBOOKS\WPF\Projects\Chapter06\WpfApp1\ADOObjects\obj\Debug\ADOObjects.exe
+D:\NewBookProject\ITBOOKS\WPF\Projects\Chapter06\WpfApp1\ADOObjects\obj\Debug\ADOObjects.pdb

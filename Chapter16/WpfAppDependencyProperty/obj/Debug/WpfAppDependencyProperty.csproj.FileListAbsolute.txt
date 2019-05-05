@@ -1,0 +1,16 @@
+D:\NewBookProject\ITBOOKS\WPF\Projects\Chapter08\WpfAppDependencyProperty\obj\Debug\WpfAppDependencyProperty.csprojResolveAssemblyReference.cache
+D:\NewBookProject\ITBOOKS\WPF\Projects\Chapter08\WpfAppDependencyProperty\obj\Debug\App.g.cs
+D:\NewBookProject\ITBOOKS\WPF\Projects\Chapter08\WpfAppDependencyProperty\obj\Debug\WpfAppDependencyProperty_MarkupCompile.cache
+D:\NewBookProject\ITBOOKS\WPF\Projects\Chapter08\WpfAppDependencyProperty\bin\Debug\WpfAppDependencyProperty.exe.config
+D:\NewBookProject\ITBOOKS\WPF\Projects\Chapter08\WpfAppDependencyProperty\bin\Debug\WpfAppDependencyProperty.exe
+D:\NewBookProject\ITBOOKS\WPF\Projects\Chapter08\WpfAppDependencyProperty\bin\Debug\WpfAppDependencyProperty.pdb
+D:\NewBookProject\ITBOOKS\WPF\Projects\Chapter08\WpfAppDependencyProperty\obj\Debug\MainWindow.g.cs
+D:\NewBookProject\ITBOOKS\WPF\Projects\Chapter08\WpfAppDependencyProperty\obj\Debug\WpfAppDependencyProperty_MarkupCompile.lref
+D:\NewBookProject\ITBOOKS\WPF\Projects\Chapter08\WpfAppDependencyProperty\obj\Debug\MainWindow.baml
+D:\NewBookProject\ITBOOKS\WPF\Projects\Chapter08\WpfAppDependencyProperty\obj\Debug\WpfAppDependencyProperty.g.resources
+D:\NewBookProject\ITBOOKS\WPF\Projects\Chapter08\WpfAppDependencyProperty\obj\Debug\WpfAppDependencyProperty.Properties.Resources.resources
+D:\NewBookProject\ITBOOKS\WPF\Projects\Chapter08\WpfAppDependencyProperty\obj\Debug\WpfAppDependencyProperty.csproj.GenerateResource.Cache
+D:\NewBookProject\ITBOOKS\WPF\Projects\Chapter08\WpfAppDependencyProperty\obj\Debug\WpfAppDependencyProperty.csproj.CoreCompileInputs.cache
+D:\NewBookProject\ITBOOKS\WPF\Projects\Chapter08\WpfAppDependencyProperty\obj\Debug\WpfAppDependencyProperty.exe
+D:\NewBookProject\ITBOOKS\WPF\Projects\Chapter08\WpfAppDependencyProperty\obj\Debug\WpfAppDependencyProperty.pdb
+D:\NewBookProject\ITBOOKS\WPF\Projects\Chapter08\WpfAppDependencyProperty\obj\Debug\GeneratedInternalTypeHelper.g.cs

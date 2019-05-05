@@ -1,0 +1,15 @@
+D:\NewBookProject\ITBOOKS\WPF\Projects\Chapter14\WpfAppFlowDocumentScrollViewer\bin\Debug\WpfAppDocumentPageViewer.exe.config
+D:\NewBookProject\ITBOOKS\WPF\Projects\Chapter14\WpfAppFlowDocumentScrollViewer\bin\Debug\WpfAppDocumentPageViewer.exe
+D:\NewBookProject\ITBOOKS\WPF\Projects\Chapter14\WpfAppFlowDocumentScrollViewer\bin\Debug\WpfAppDocumentPageViewer.pdb
+D:\NewBookProject\ITBOOKS\WPF\Projects\Chapter14\WpfAppFlowDocumentScrollViewer\obj\Debug\WpfAppFlowDocumentScrollViewer.csprojResolveAssemblyReference.cache
+D:\NewBookProject\ITBOOKS\WPF\Projects\Chapter14\WpfAppFlowDocumentScrollViewer\obj\Debug\MainWindow.g.cs
+D:\NewBookProject\ITBOOKS\WPF\Projects\Chapter14\WpfAppFlowDocumentScrollViewer\obj\Debug\App.g.cs
+D:\NewBookProject\ITBOOKS\WPF\Projects\Chapter14\WpfAppFlowDocumentScrollViewer\obj\Debug\WpfAppDocumentPageViewer_MarkupCompile.cache
+D:\NewBookProject\ITBOOKS\WPF\Projects\Chapter14\WpfAppFlowDocumentScrollViewer\obj\Debug\WpfAppDocumentPageViewer_MarkupCompile.lref
+D:\NewBookProject\ITBOOKS\WPF\Projects\Chapter14\WpfAppFlowDocumentScrollViewer\obj\Debug\MainWindow.baml
+D:\NewBookProject\ITBOOKS\WPF\Projects\Chapter14\WpfAppFlowDocumentScrollViewer\obj\Debug\WpfAppDocumentPageViewer.g.resources
+D:\NewBookProject\ITBOOKS\WPF\Projects\Chapter14\WpfAppFlowDocumentScrollViewer\obj\Debug\WpfAppDocumentPageViewer.Properties.Resources.resources
+D:\NewBookProject\ITBOOKS\WPF\Projects\Chapter14\WpfAppFlowDocumentScrollViewer\obj\Debug\WpfAppFlowDocumentScrollViewer.csproj.GenerateResource.Cache
+D:\NewBookProject\ITBOOKS\WPF\Projects\Chapter14\WpfAppFlowDocumentScrollViewer\obj\Debug\WpfAppFlowDocumentScrollViewer.csproj.CoreCompileInputs.cache
+D:\NewBookProject\ITBOOKS\WPF\Projects\Chapter14\WpfAppFlowDocumentScrollViewer\obj\Debug\WpfAppDocumentPageViewer.exe
+D:\NewBookProject\ITBOOKS\WPF\Projects\Chapter14\WpfAppFlowDocumentScrollViewer\obj\Debug\WpfAppDocumentPageViewer.pdb

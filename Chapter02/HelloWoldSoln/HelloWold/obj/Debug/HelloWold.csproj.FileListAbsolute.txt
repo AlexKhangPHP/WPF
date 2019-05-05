@@ -1,0 +1,15 @@
+D:\NewBookProject\ITBOOKS\WPF\Projects\Chapter01\HelloWoldSoln\HelloWold\bin\Debug\HelloWold.exe.config
+D:\NewBookProject\ITBOOKS\WPF\Projects\Chapter01\HelloWoldSoln\HelloWold\bin\Debug\HelloWold.exe
+D:\NewBookProject\ITBOOKS\WPF\Projects\Chapter01\HelloWoldSoln\HelloWold\bin\Debug\HelloWold.pdb
+D:\NewBookProject\ITBOOKS\WPF\Projects\Chapter01\HelloWoldSoln\HelloWold\obj\Debug\HelloWold.csprojResolveAssemblyReference.cache
+D:\NewBookProject\ITBOOKS\WPF\Projects\Chapter01\HelloWoldSoln\HelloWold\obj\Debug\MainWindow.g.cs
+D:\NewBookProject\ITBOOKS\WPF\Projects\Chapter01\HelloWoldSoln\HelloWold\obj\Debug\App.g.cs
+D:\NewBookProject\ITBOOKS\WPF\Projects\Chapter01\HelloWoldSoln\HelloWold\obj\Debug\HelloWold_MarkupCompile.cache
+D:\NewBookProject\ITBOOKS\WPF\Projects\Chapter01\HelloWoldSoln\HelloWold\obj\Debug\HelloWold_MarkupCompile.lref
+D:\NewBookProject\ITBOOKS\WPF\Projects\Chapter01\HelloWoldSoln\HelloWold\obj\Debug\MainWindow.baml
+D:\NewBookProject\ITBOOKS\WPF\Projects\Chapter01\HelloWoldSoln\HelloWold\obj\Debug\HelloWold.g.resources
+D:\NewBookProject\ITBOOKS\WPF\Projects\Chapter01\HelloWoldSoln\HelloWold\obj\Debug\HelloWold.Properties.Resources.resources
+D:\NewBookProject\ITBOOKS\WPF\Projects\Chapter01\HelloWoldSoln\HelloWold\obj\Debug\HelloWold.csproj.GenerateResource.Cache
+D:\NewBookProject\ITBOOKS\WPF\Projects\Chapter01\HelloWoldSoln\HelloWold\obj\Debug\HelloWold.csproj.CoreCompileInputs.cache
+D:\NewBookProject\ITBOOKS\WPF\Projects\Chapter01\HelloWoldSoln\HelloWold\obj\Debug\HelloWold.exe
+D:\NewBookProject\ITBOOKS\WPF\Projects\Chapter01\HelloWoldSoln\HelloWold\obj\Debug\HelloWold.pdb

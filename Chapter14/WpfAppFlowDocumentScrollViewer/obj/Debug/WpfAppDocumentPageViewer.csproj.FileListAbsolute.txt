@@ -1,0 +1,15 @@
+D:\NewBookProject\ITBOOKS\WPF\Projects\Chapter07\WpfAppFixedDocument\WpfAppDocumentPageViewer\bin\Debug\WpfAppDocumentPageViewer.exe.config
+D:\NewBookProject\ITBOOKS\WPF\Projects\Chapter07\WpfAppFixedDocument\WpfAppDocumentPageViewer\bin\Debug\WpfAppDocumentPageViewer.exe
+D:\NewBookProject\ITBOOKS\WPF\Projects\Chapter07\WpfAppFixedDocument\WpfAppDocumentPageViewer\bin\Debug\WpfAppDocumentPageViewer.pdb
+D:\NewBookProject\ITBOOKS\WPF\Projects\Chapter07\WpfAppFixedDocument\WpfAppDocumentPageViewer\obj\Debug\WpfAppDocumentPageViewer.csprojResolveAssemblyReference.cache
+D:\NewBookProject\ITBOOKS\WPF\Projects\Chapter07\WpfAppFixedDocument\WpfAppDocumentPageViewer\obj\Debug\MainWindow.g.cs
+D:\NewBookProject\ITBOOKS\WPF\Projects\Chapter07\WpfAppFixedDocument\WpfAppDocumentPageViewer\obj\Debug\App.g.cs
+D:\NewBookProject\ITBOOKS\WPF\Projects\Chapter07\WpfAppFixedDocument\WpfAppDocumentPageViewer\obj\Debug\WpfAppDocumentPageViewer_MarkupCompile.cache
+D:\NewBookProject\ITBOOKS\WPF\Projects\Chapter07\WpfAppFixedDocument\WpfAppDocumentPageViewer\obj\Debug\WpfAppDocumentPageViewer_MarkupCompile.lref
+D:\NewBookProject\ITBOOKS\WPF\Projects\Chapter07\WpfAppFixedDocument\WpfAppDocumentPageViewer\obj\Debug\MainWindow.baml
+D:\NewBookProject\ITBOOKS\WPF\Projects\Chapter07\WpfAppFixedDocument\WpfAppDocumentPageViewer\obj\Debug\WpfAppDocumentPageViewer.g.resources
+D:\NewBookProject\ITBOOKS\WPF\Projects\Chapter07\WpfAppFixedDocument\WpfAppDocumentPageViewer\obj\Debug\WpfAppDocumentPageViewer.Properties.Resources.resources
+D:\NewBookProject\ITBOOKS\WPF\Projects\Chapter07\WpfAppFixedDocument\WpfAppDocumentPageViewer\obj\Debug\WpfAppDocumentPageViewer.csproj.GenerateResource.Cache
+D:\NewBookProject\ITBOOKS\WPF\Projects\Chapter07\WpfAppFixedDocument\WpfAppDocumentPageViewer\obj\Debug\WpfAppDocumentPageViewer.csproj.CoreCompileInputs.cache
+D:\NewBookProject\ITBOOKS\WPF\Projects\Chapter07\WpfAppFixedDocument\WpfAppDocumentPageViewer\obj\Debug\WpfAppDocumentPageViewer.exe
+D:\NewBookProject\ITBOOKS\WPF\Projects\Chapter07\WpfAppFixedDocument\WpfAppDocumentPageViewer\obj\Debug\WpfAppDocumentPageViewer.pdb
